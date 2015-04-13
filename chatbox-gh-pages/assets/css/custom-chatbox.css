@@ -733,3 +733,14 @@ box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.27);
 #terms a {
     color: RGB(26, 133, 254);
 }
+
+#text a {
+    color: RGB(26, 133, 254);
+}
+
+#terms-text p {
+  color: #333;
+  font-size: 1.1em;
+  font-weight: 400;
+  line-height: 1.4;
+}
