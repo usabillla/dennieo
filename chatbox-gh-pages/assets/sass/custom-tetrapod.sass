@@ -1,0 +1,384 @@
+@import compass
+@import "bootstrap-variables_tetrapod"
+
+img
+  max-width: 100%
+
+#content
+  &.white
+    background-color: #fff
+
+.text-center-up-to-xs
+  @media (max-width: 768px)
+    text-align: center
+
+.text-right-gt-than-xs
+  @media (min-width: 769px)
+    text-align: right
+
+#navbar
+  border-color: transparent !important
+.navbar
+  .nav
+    li
+      font-size: 0.9em
+      margin: 22px 0px
+      a
+        line-height: 34px
+        color: RGB(207, 209, 213)
+      .special-tetrapod
+        background-color: RGB(78, 89, 106)
+        color: RGB(254, 254, 254)
+        border: 1px solid RGB(213, 213, 216)
+        +border-radius($border-radius-base)
+        &:hover
+          background-color: RGB(27, 66, 85)
+          color: RGB(254, 254, 254)
+  &.navbar-transparent
+    background-color: transparent
+    border-color: transparent
+.parallax-mirror
+  background-color: #2c3a4d
+  @media (max-width: 768px)
+    display: none
+#header
+  @media (max-width: 768px)
+    background-color: #2c3a4d
+  #tetrapod-eyecatcher
+    padding: 100px 0
+    .tetrapod-eyecatcher-title
+      color: #fff
+      font-size: 4em
+      font-weight: 400
+      padding-bottom: 18px
+    .tetrapod-eyecatcher-subtitle
+      color: #fff
+      font-size: 1.4em
+      font-weight: 200
+      @media (max-width: 768px)
+        padding-bottom: 80px
+      @media (min-width: 769px)
+        padding-bottom: 180px
+    .tetrapod-eyecatcher-link
+      a
+        color: #fff
+        font-weight: 200
+        font-size: 1.4em
+        span
+          margin-left: 4px
+          font-size: 14px
+#eyecatcher
+  +background-image(linear-gradient(to bottom right, #0e1d30, #1e4863))
+  @media (max-width: 768px)
+    padding-top: 32px
+  @media (min-width: 769px)
+    padding-top: 90px
+  .primary-motto
+    color: RGB(249, 249, 249)
+    font-weight: 300
+    margin-bottom: 1em
+    font-size: 2.4em
+    @include border-radius
+  .secondary-motto
+    color: RGB(197, 196, 203)
+    font-weight: 200
+    font-size: 1.7em
+    margin-bottom: 1em
+  .invitation
+    padding-bottom: 32px
+    .title
+      color: RGB(255, 255, 255)
+      font-size: 1.4em
+      font-weight: 300
+    .form
+      padding-top: 1em
+      input
+        font-size: 1.2em
+        font-weight: 200
+        padding-left: 2em
+        border: 0px
+        +border-radius($border-radius-base)
+      button
+        background-color: RGB(245, 210, 0)
+        color: RGB(16, 67, 87)
+        font-size: 1.2em
+        font-weight: 600
+      input, button
+        height: 52px
+        width: 100%
+  .eyecatcher-image
+    padding-bottom: 32px
+#partners
+  background-color: RGB(249, 249, 249)
+  padding: 16px 0
+#content
+  background-color: #F9F9F9
+  padding: 64px 0
+  .content-title
+    font-size: 2.2em
+    padding-bottom: 8px
+  .content-subtitle
+    font-weight: 300
+    font-size: 1.8em
+    color: RGB(121, 129, 147)
+    padding-bottom: 54px
+  .content-text
+    color: RGB(162, 169, 173)
+    font-size: 1.4em
+    font-weight: 300
+    p
+      padding-bottom: 1em
+  #tab-header
+    padding-bottom: 32px
+    margin-bottom: 32px
+    border-bottom: 1px solid #E9EFF2
+    .highlightable
+      @media (min-width: 769px)
+        img
+          opacity: 0.6
+      &.active
+        @media (min-width: 769px)
+          border-color: RGB(208, 217, 220)
+      &.active, &:hover
+        img
+          opacity: 1
+        .tab-title
+          color: RGB(51, 51, 51)
+        .tab-description
+          color: RGB(116, 125, 133)
+      @media (max-width: 768px)
+        img
+          opacity: 1
+        .tab-title
+          color: RGB(51, 51, 51)
+        .tab-description
+          color: RGB(116, 125, 133)
+    .tab-title
+      color: RGB(157, 157, 157)
+      font-size: 2em
+    .tab-description
+      color: RGB(184, 189, 193)
+      font-size: 1.1em
+      font-weight: 300
+  #tab-content
+    .tab-image-column, .tab-text-column
+      padding-bottom: 32px
+    .tab-text-column
+      .tab-content-title
+        color: RGB(43, 58, 79)
+        font-size: 1.4em
+        padding-bottom: 8px
+        @media (max-width: 768px)
+          font-weight: 600
+        @media (min-width: 769px)
+          font-weight: 400
+      .tab-content-description
+        color: RGB(162, 169, 173)
+        font-size: 1.2em
+        padding-bottom: 1em
+        @media (max-width: 768px)
+          font-weight: 300
+        @media (min-width: 769px)
+          font-weight: 200
+        .tab-content-description-link
+          a
+            color: #288EFA
+#reviews
+  +background-image(linear-gradient(to bottom right, #0e1d30, #1e4863))
+  @media (max-width: 768px)
+    padding: 32px 0
+  @media (min-width: 769px)
+    padding: 70px 0 80px
+  .statement
+    color: RGB(255, 255, 255)
+    font-style: italic
+    font-weight: 200
+    font-size: 1.4em
+    margin-bottom: 0.5em
+  .speaker
+    color: RGB(114, 125, 137)
+#purpose
+  @media (min-width: 769px)
+    background-image: url('data:image/gif;base64,R0lGODlhAQABAIAAAOjv8gAAACH/C1hNUCBEYXRhWE1QPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS4wLWMwNjAgNjEuMTM0Nzc3LCAyMDEwLzAyLzEyLTE3OjMyOjAwICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpCNkE4MUM2NkNEODcxMUU0ODg3MzlENzU2NEZFQTZENCIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpCNkE4MUM2N0NEODcxMUU0ODg3MzlENzU2NEZFQTZENCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkI2QTgxQzY0Q0Q4NzExRTQ4ODczOUQ3NTY0RkVBNkQ0IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOkI2QTgxQzY1Q0Q4NzExRTQ4ODczOUQ3NTY0RkVBNkQ0Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+Af/+/fz7+vn49/b19PPy8fDv7u3s6+rp6Ofm5eTj4uHg397d3Nva2djX1tXU09LR0M/OzczLysnIx8bFxMPCwcC/vr28u7q5uLe2tbSzsrGwr66trKuqqainpqWko6KhoJ+enZybmpmYl5aVlJOSkZCPjo2Mi4qJiIeGhYSDgoGAf359fHt6eXh3dnV0c3JxcG9ubWxramloZ2ZlZGNiYWBfXl1cW1pZWFdWVVRTUlFQT05NTEtKSUhHRkVEQ0JBQD8+PTw7Ojk4NzY1NDMyMTAvLi0sKyopKCcmJSQjIiEgHx4dHBsaGRgXFhUUExIREA8ODQwLCgkIBwYFBAMCAQAAIfkEAAAAAAAsAAAAAAEAAQAAAgJEAQA7')
+  background-position: center center
+  background-repeat: repeat-y
+  background-color: #F9F9F9
+  background-position: center center
+  background-repeat: repeat-y
+  border-bottom: 1px solid RGB(232, 239, 242)
+  border-top: 1px solid #E9EFF2
+
+  .purpose-one, .purpose-two
+    @media (max-width: 768px)
+      padding-top: 32px
+      padding-bottom: 32px
+    @media (min-width: 769px)
+      padding-top: 60px
+      padding-bottom: 60px
+  .purpose-one
+    @media (max-width: 768px)
+      background-color: #fff
+  .purpose-icon
+    padding-bottom: 32px
+  .purpose-title
+    color: RGB(43, 58, 79)
+    font-size: 1.4em
+    padding-bottom: 16px
+  .purpose-description
+    color: RGB(118, 127, 145)
+    font-size: 1.2em
+    font-weight: 300
+    padding-bottom: 16px
+  .purpose-link
+    font-size: 1.1em
+    font-weight: 300
+    a
+      color: RGB(26, 133, 254)
+#subscribe
+  @media (max-width: 768px)
+    padding: 32px 0
+  @media (min-width: 769px)
+    padding: 100px 0
+  .subscribe-title
+    line-height: 50px
+    height: 50px
+    color: RGB(43, 58, 79)
+    font-size: 1.4em
+    font-weight: 300
+  .subscribe-form
+    .subscribe-form-input
+      height: 50px
+      display: block
+      width: 100%
+      background-color: RGB(248, 248, 248)
+      border: none
+      +border-radius($border-radius-base)
+      padding-left: 48px
+      font-size: 1.2em
+      font-weight: 300
+    .subscribe-form-button
+      height: 50px
+      padding: 0
+      color: #000
+      line-height: 50px
+      display: block
+      width: 100%
+      font-weight: 600
+      font-size: 1.2em
+      background-color: RGB(245, 210, 0)
+#footer
+  background-color: #2D3B4E
+  .primary-footer
+    @media (max-width: 768px)
+      padding: 32px 0
+    @media (min-width: 769px)
+      padding: 64px 0 100px
+    .primary-footer-logo
+      margin-bottom: 32px
+    .primary-footer-menu
+      .primary-footer-menu-title
+        color: #818994
+        font-size: 1.2em
+        margin-bottom: 8px
+      .primary-footer-menu-items
+        list-style: none
+        padding-left: 0
+        li
+          font-weight: 300
+          line-height: 1.6em
+          a
+            color: #FFF
+  .secondary-footer
+    font-weight: 300
+    color: #FFF
+    a
+      color: #FFF
+    .secondary-footer-content
+      padding: 28px 0
+      .secondary-footer-content-links
+        @media (max-width: 768px)
+          padding-top: 8px
+        a
+          color: #FFF
+    .secondary-footer-border
+      border-top: 1px solid RGB(210, 211, 211)
+
+#title
+  margin: 100px 0
+  .title-text
+    font-size: 2.4em
+#team
+  border-bottom: 1px solid RGB(232, 239, 242)
+  .team-item
+    .team-item-image
+      position: relative
+      margin-bottom: 18px
+      .team-item-image-placeholder
+        padding-top: 40%
+        position: absolute
+        width: 100%
+        height: 100%
+        background-color: rgba(0,0,0,0.6)
+        display: none
+      &:hover
+        .team-item-image-placeholder
+          display: block
+    .team-item-name
+      color: RGB(43, 58, 79)
+      font-size: 1.2em
+      font-weight: 600
+      padding-bottom: 12px
+    .team-item-position
+      color: RGB(128, 137, 143)
+      font-weight: 300
+      padding-bottom: 100px
+#tweet
+  background-color: #f7f7f7
+  padding: 80px 0
+  .tweet-title
+    font-size: 2.2em
+    color: RGB(43, 58, 79)
+    padding-bottom: 24px
+    .circle
+      margin: 0.1em 0
+      display: inline-block
+      width: 0.6em
+      height: 0.6em
+      background-color: RGB(0, 187, 43)
+      +border-radius(0.6em)
+  .tweet-description
+    font-size: 1.2em
+    color: RGB(135, 143, 148)
+    font-weight: 300
+    @media (max-width: 768px)
+      padding-bottom: 32px
+  .tweet-arrow
+    position: absolute
+    right: 0
+
+
+.tw-block
+  +box-shadow(rgba(0,0,0,.5) 0px 0px 10px)
+  +border-radius($border-radius-base)
+  background-color: #fff
+  padding: 16px 12px
+  .tw-block-title
+    color: #666666
+  .tw-block-textarea
+    padding: 8px
+    +border-radius($border-radius-base)
+    border-color: #ccc
+    width: 100%
+    margin-bottom: 4px
+  .tw-block-footer
+    text-align: right
+    button
+      display: inline-block
+      border: 1px solid #3399dd
+      color: white
+      +border-radius($border-radius-base)
+      border-width: 0
+      margin-left: 8px
+      line-height: 32px
+      padding: 0 12px
+      +background-image(linear-gradient(to bottom, #55acee, #00B0F1))

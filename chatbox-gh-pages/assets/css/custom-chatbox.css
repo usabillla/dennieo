@@ -1,0 +1,735 @@
+/* line 4, ../sass/custom-chatbox.sass */
+img {
+  max-width: 100%;
+}
+
+@media (max-width: 768px) {
+  /* line 7, ../sass/custom-chatbox.sass */
+  .text-center-up-to-xs {
+    text-align: center;
+  }
+}
+
+@media (min-width: 769px) {
+  /* line 11, ../sass/custom-chatbox.sass */
+  .text-right-gt-than-xs {
+    text-align: right;
+  }
+}
+
+/* line 14, ../sass/custom-chatbox.sass */
+.chatbox-logo {
+  max-width: 170px;
+    padding-bottom: 0em;
+    padding-top: 1em;
+}
+
+/* line 18, ../sass/custom-chatbox.sass */
+.navbar .nav li {
+  font-size: 0.9em;
+  margin: 22px 0px;
+}
+/* line 21, ../sass/custom-chatbox.sass */
+.navbar .nav li a {
+  line-height: 34px;
+}
+/* line 23, ../sass/custom-chatbox.sass */
+.navbar .nav li .special {
+  background-color: RGB(27, 66, 85);
+  color: RGB(254, 254, 254);
+  border: 1px solid transparent;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+/* line 28, ../sass/custom-chatbox.sass */
+.navbar .nav li .special:hover {
+  background-color: RGB(27, 66, 85);
+  color: RGB(254, 254, 254);
+}
+/* line 31, ../sass/custom-chatbox.sass */
+.navbar.navbar-transparent {
+  background-color: transparent;
+  border-bottom-color: transparent;
+}
+
+/* line 34, ../sass/custom-chatbox.sass */
+#header {
+  background-color: #2c3a4d;
+}
+
+/* line 36, ../sass/custom-chatbox.sass */
+#eyecatcher {
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuMCIgeTE9IjAuMCIgeDI9IjEuMCIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzBlMWQzMCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzFlNDg2MyIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0%, #0e1d30), color-stop(100%, #1e4863));
+  background-image: -moz-linear-gradient(top, #0e1d30, #1e4863);
+  background-image: -webkit-linear-gradient(top, #0e1d30, #1e4863);
+  background-image: linear-gradient(to bottom right, #0e1d30, #1e4863);
+}
+
+#eyecatcher-create {
+  background-color: aliceblue;
+  background-size: 100%;
+}
+
+@media (max-width: 768px) {
+  /* line 36, ../sass/custom-chatbox.sass */
+  #eyecatcher {
+    padding-top: 32px;
+  }
+}
+@media (min-width: 769px) {
+  /* line 36, ../sass/custom-chatbox.sass */
+  #eyecatcher {
+    padding-top: 90px;
+  }
+}
+/* line 42, ../sass/custom-chatbox.sass */
+#eyecatcher .primary-motto {
+  color: RGB(249, 249, 249);
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+@media (max-width: 768px) {
+  /* line 42, ../sass/custom-chatbox.sass */
+  #eyecatcher .primary-motto {
+    font-size: 2em;
+    font-weight: 400;
+    margin-bottom: 15px;
+  }
+}
+@media (min-width: 769px) {
+  /* line 42, ../sass/custom-chatbox.sass */
+  #eyecatcher .primary-motto {
+    font-size: 2.4em;
+    font-weight: 300;
+    margin-bottom: 28px;
+  }
+}
+/* line 53, ../sass/custom-chatbox.sass */
+#eyecatcher .secondary-motto {
+  color: RGB(197, 196, 203);
+  margin-bottom: 1em;
+}
+@media (max-width: 768px) {
+  /* line 53, ../sass/custom-chatbox.sass */
+  #eyecatcher .secondary-motto {
+    font-weight: 300;
+    font-size: 1.4em;
+  }
+}
+@media (min-width: 769px) {
+  /* line 53, ../sass/custom-chatbox.sass */
+  #eyecatcher .secondary-motto {
+    font-weight: 200;
+    font-size: 1.7em;
+  }
+}
+/* line 62, ../sass/custom-chatbox.sass */
+#eyecatcher .invitation {
+  padding-bottom: 32px;
+}
+/* line 64, ../sass/custom-chatbox.sass */
+#eyecatcher .invitation .title {
+  color: RGB(255, 255, 255);
+  font-size: 1.4em;
+}
+@media (max-width: 768px) {
+  /* line 64, ../sass/custom-chatbox.sass */
+  #eyecatcher .invitation .title {
+    font-weight: 600;
+  }
+}
+@media (min-width: 769px) {
+  /* line 64, ../sass/custom-chatbox.sass */
+  #eyecatcher .invitation .title {
+    font-weight: 300;
+  }
+}
+/* line 71, ../sass/custom-chatbox.sass */
+#eyecatcher .invitation .form {
+  padding-top: 1em;
+}
+/* line 73, ../sass/custom-chatbox.sass */
+#eyecatcher .invitation .form .form-input {
+  margin-bottom: 1em;
+}
+/* line 75, ../sass/custom-chatbox.sass */
+#eyecatcher .invitation .form .form-input input {
+  background: url("../images/envelope-light.svg") no-repeat left center;
+  background-size: 18px;
+  background-position-x: 15px;
+  background-color: RGB(255, 255, 255);
+  font-size: 1.2em;
+  font-weight: 300;
+  padding-left: 40px;
+  border: 0px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+
+#signer .invitation #card .form .form-input input {
+  background: url("../images/envelope-light.svg") no-repeat left center;
+  background-size: 18px;
+  background-position-x: 15px;
+  background-color: RGB(255, 255, 255);
+  font-size: 1.2em;
+  font-weight: 300;
+  padding-left: 40px;
+  border: solid 1px #E9EFF2;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+/* line 86, ../sass/custom-chatbox.sass */
+#eyecatcher .invitation .form .form-button button {
+  background-color: RGB(245, 210, 0);
+  color: RGB(16, 67, 87);
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+#signer .invitation .form .form-button button {
+  background-color: RGB(245, 210, 0);
+  color: RGB(16, 67, 87);
+  font-size: 1.2em;
+  font-weight: 600;
+    margin-top: 20px;
+}
+
+/* line 91, ../sass/custom-chatbox.sass */
+#eyecatcher .invitation .form input, #eyecatcher .invitation .form button {
+  height: 52px;
+  width: 100%;
+}
+#signer .invitation .form input, #signer .invitation .form button {
+  height: 52px;
+  width: 100%;
+}
+/* line 94, ../sass/custom-chatbox.sass */
+#eyecatcher .eyecatcher-image {
+  padding-bottom: 32px;
+  position: relative;
+}
+
+/* line 97, ../sass/custom-chatbox.sass */
+#partners {
+  background-color: RGB(249, 249, 249);
+  padding: 16px 0;
+}
+
+/* line 100, ../sass/custom-chatbox.sass */
+#content {
+  background-color: RGB(255, 255, 255);
+}
+@media (max-width: 768px) {
+  /* line 100, ../sass/custom-chatbox.sass */
+  #content {
+    padding: 16px 0;
+  }
+}
+@media (min-width: 769px) {
+  /* line 100, ../sass/custom-chatbox.sass */
+  #content {
+    padding: 64px 0;
+  }
+}
+
+/* line 100, ../sass/custom-chatbox.sass */
+#content-sign {
+  background-color: RGB(255, 255, 255);
+}
+@media (max-width: 768px) {
+  /* line 100, ../sass/custom-chatbox.sass */
+  #content-sign {
+    padding: 16px 0;
+  }
+}
+@media (min-width: 769px) {
+  /* line 100, ../sass/custom-chatbox.sass */
+  #content-sign {
+    padding-top: 20px;
+      padding-bottom: 30px;
+  }
+}
+/* line 106, ../sass/custom-chatbox.sass */
+#content .content-title {
+  font-size: 2.2em;
+  padding-bottom: 8px;
+}
+/* line 106, ../sass/custom-chatbox.sass */
+#content-sign .content-title {
+  font-size: 2.2em;
+  padding-bottom: 8px;
+}
+/* line 109, ../sass/custom-chatbox.sass */
+#content .content-subtitle {
+  font-weight: 300;
+  font-size: 1.8em;
+  color: RGB(121, 129, 147);
+  padding-bottom: 54px;
+}
+/* line 114, ../sass/custom-chatbox.sass */
+#content #tab-header {
+  padding-bottom: 80px;
+}
+/* line 116, ../sass/custom-chatbox.sass */
+#content #tab-header .highlightable {
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  padding: 18px;
+  border: 1px solid transparent;
+}
+@media (min-width: 769px) {
+  /* line 121, ../sass/custom-chatbox.sass */
+  #content #tab-header .highlightable img {
+    opacity: 0.6;
+  }
+}
+@media (min-width: 769px) {
+  /* line 123, ../sass/custom-chatbox.sass */
+  #content #tab-header .highlightable.active {
+    border-color: RGB(208, 217, 220);
+  }
+}
+/* line 127, ../sass/custom-chatbox.sass */
+#content #tab-header .highlightable.active img, #content #tab-header .highlightable:hover img {
+  opacity: 1;
+}
+/* line 129, ../sass/custom-chatbox.sass */
+#content #tab-header .highlightable.active .tab-title, #content #tab-header .highlightable:hover .tab-title {
+  color: RGB(51, 51, 51);
+}
+/* line 131, ../sass/custom-chatbox.sass */
+#content #tab-header .highlightable.active .tab-description, #content #tab-header .highlightable:hover .tab-description {
+  color: RGB(116, 125, 133);
+}
+@media (min-width: 769px) {
+  /* line 126, ../sass/custom-chatbox.sass */
+  #content #tab-header .highlightable.active, #content #tab-header .highlightable:hover {
+    background-color: RGB(237, 240, 241);
+  }
+}
+@media (max-width: 768px) {
+  /* line 136, ../sass/custom-chatbox.sass */
+  #content #tab-header .highlightable img {
+    opacity: 1;
+  }
+  /* line 138, ../sass/custom-chatbox.sass */
+  #content #tab-header .highlightable .tab-title {
+    color: RGB(51, 51, 51);
+  }
+  /* line 140, ../sass/custom-chatbox.sass */
+  #content #tab-header .highlightable .tab-description {
+    color: RGB(116, 125, 133);
+  }
+}
+@media (max-width: 768px) and (min-width: 769px) {
+  /* line 116, ../sass/custom-chatbox.sass */
+  #content #tab-header .highlightable {
+    background-color: RGB(237, 240, 241);
+  }
+}
+
+/* line 144, ../sass/custom-chatbox.sass */
+#content #tab-header .tab-title {
+  color: RGB(157, 157, 157);
+  font-size: 1.2em;
+}
+/* line 147, ../sass/custom-chatbox.sass */
+#content #tab-header .tab-description {
+  color: RGB(184, 189, 193);
+  font-size: 1.1em;
+  font-weight: 300;
+}
+
+/* line 147, ../sass/custom-chatbox.sass */
+#sign-tagline  {
+  color: RGB(85, 85, 85);
+  font-size: 1.4em;
+  font-weight: 300;
+}
+/* line 152, ../sass/custom-chatbox.sass */
+#content #tab-content .tab-image-column, #content #tab-content .tab-text-column {
+  padding-bottom: 32px;
+}
+/* line 155, ../sass/custom-chatbox.sass */
+#content #tab-content .tab-text-column .tab-content-title {
+  color: RGB(43, 58, 79);
+  font-size: 1.5em;
+  padding-bottom: 8px;
+}
+@media (max-width: 768px) {
+  /* line 155, ../sass/custom-chatbox.sass */
+  #content #tab-content .tab-text-column .tab-content-title {
+    font-weight: 600;
+  }
+}
+@media (min-width: 769px) {
+  /* line 155, ../sass/custom-chatbox.sass */
+  #content #tab-content .tab-text-column .tab-content-title {
+    font-weight: 600;
+  }
+}
+/* line 163, ../sass/custom-chatbox.sass */
+#content #tab-content .tab-text-column .tab-content-description {
+  color: RGB(162, 169, 173);
+  font-size: 1.4em;
+  padding-bottom: 1em;
+}
+@media (max-width: 768px) {
+  /* line 163, ../sass/custom-chatbox.sass */
+  #content #tab-content .tab-text-column .tab-content-description {
+    font-weight: 300;
+  }
+}
+@media (min-width: 769px) {
+  /* line 163, ../sass/custom-chatbox.sass */
+  #content #tab-content .tab-text-column .tab-content-description {
+    font-weight: 300;
+  }
+}
+
+/* line 171, ../sass/custom-chatbox.sass */
+#reviews {
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuMCIgeTE9IjAuMCIgeDI9IjEuMCIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzBlMWQzMCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzFlNDg2MyIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0%, #0e1d30), color-stop(100%, #1e4863));
+  background-image: -moz-linear-gradient(top, #0e1d30, #1e4863);
+  background-image: -webkit-linear-gradient(top, #0e1d30, #1e4863);
+  background-image: linear-gradient(to bottom right, #0e1d30, #1e4863);
+}
+@media (max-width: 768px) {
+  /* line 171, ../sass/custom-chatbox.sass */
+  #reviews {
+    padding: 32px 0;
+  }
+}
+@media (min-width: 769px) {
+  /* line 171, ../sass/custom-chatbox.sass */
+  #reviews {
+    padding: 70px 0 80px;
+  }
+}
+/* line 177, ../sass/custom-chatbox.sass */
+#reviews .statement {
+  color: RGB(255, 255, 255);
+  font-style: italic;
+  font-size: 1.4em;
+  margin-bottom: 0.5em;
+}
+@media (max-width: 768px) {
+  /* line 177, ../sass/custom-chatbox.sass */
+  #reviews .statement {
+    font-weight: 300;
+  }
+}
+@media (min-width: 769px) {
+  /* line 177, ../sass/custom-chatbox.sass */
+  #reviews .statement {
+    font-weight: 200;
+  }
+}
+/* line 186, ../sass/custom-chatbox.sass */
+#reviews .speaker {
+  color: RGB(114, 125, 137);
+}
+
+/* line 188, ../sass/custom-chatbox.sass */
+#purpose {
+  background-position: center center;
+  background-repeat: repeat-y;
+  background-color: RGB(249, 249, 249);
+  border-bottom: 1px solid RGB(232, 239, 242);
+}
+@media (min-width: 769px) {
+  /* line 188, ../sass/custom-chatbox.sass */
+  #purpose {
+    background-image: url("data:image/gif;base64,R0lGODlhAQABAIAAAOjv8gAAACH/C1hNUCBEYXRhWE1QPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS4wLWMwNjAgNjEuMTM0Nzc3LCAyMDEwLzAyLzEyLTE3OjMyOjAwICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpCNkE4MUM2NkNEODcxMUU0ODg3MzlENzU2NEZFQTZENCIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpCNkE4MUM2N0NEODcxMUU0ODg3MzlENzU2NEZFQTZENCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkI2QTgxQzY0Q0Q4NzExRTQ4ODczOUQ3NTY0RkVBNkQ0IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOkI2QTgxQzY1Q0Q4NzExRTQ4ODczOUQ3NTY0RkVBNkQ0Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+Af/+/fz7+vn49/b19PPy8fDv7u3s6+rp6Ofm5eTj4uHg397d3Nva2djX1tXU09LR0M/OzczLysnIx8bFxMPCwcC/vr28u7q5uLe2tbSzsrGwr66trKuqqainpqWko6KhoJ+enZybmpmYl5aVlJOSkZCPjo2Mi4qJiIeGhYSDgoGAf359fHt6eXh3dnV0c3JxcG9ubWxramloZ2ZlZGNiYWBfXl1cW1pZWFdWVVRTUlFQT05NTEtKSUhHRkVEQ0JBQD8+PTw7Ojk4NzY1NDMyMTAvLi0sKyopKCcmJSQjIiEgHx4dHBsaGRgXFhUUExIREA8ODQwLCgkIBwYFBAMCAQAAIfkEAAAAAAAsAAAAAAEAAQAAAgJEAQA7");
+  }
+}
+@media (max-width: 768px) {
+  /* line 196, ../sass/custom-chatbox.sass */
+  #purpose .purpose-one, #purpose .purpose-two {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+}
+@media (min-width: 769px) {
+  /* line 196, ../sass/custom-chatbox.sass */
+  #purpose .purpose-one, #purpose .purpose-two {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+@media (max-width: 768px) {
+  /* line 203, ../sass/custom-chatbox.sass */
+  #purpose .purpose-one {
+    background-color: #fff;
+  }
+}
+/* line 206, ../sass/custom-chatbox.sass */
+#purpose .purpose-icon {
+  padding-bottom: 32px;
+}
+/* line 208, ../sass/custom-chatbox.sass */
+#purpose .purpose-title {
+  color: RGB(43, 58, 79);
+  font-size: 1.4em;
+  padding-bottom: 16px;
+}
+/* line 212, ../sass/custom-chatbox.sass */
+#purpose .purpose-description {
+  color: RGB(118, 127, 145);
+  font-size: 1.2em;
+  font-weight: 300;
+  padding-bottom: 16px;
+}
+/* line 217, ../sass/custom-chatbox.sass */
+#purpose .purpose-link {
+  font-size: 1.1em;
+  font-weight: 300;
+}
+/* line 220, ../sass/custom-chatbox.sass */
+#purpose .purpose-link a {
+  color: RGB(26, 133, 254);
+}
+
+@media (max-width: 768px) {
+  /* line 222, ../sass/custom-chatbox.sass */
+  #subscribe {
+    padding: 32px 0;
+  }
+}
+@media (min-width: 769px) {
+  /* line 222, ../sass/custom-chatbox.sass */
+  #subscribe {
+    padding: 100px 0;
+  }
+}
+/* line 227, ../sass/custom-chatbox.sass */
+#subscribe .subscribe-title {
+  line-height: 50px;
+  color: RGB(43, 58, 79);
+  font-size: 1.4em;
+}
+/* line 232, ../sass/custom-chatbox.sass */
+#subscribe .subscribe-form .subscribe-form-input {
+  background: url("../images/envelope-light.svg") no-repeat left center;
+  background-size: 18px;
+  background-position-x: 15px;
+  height: 50px;
+  display: block;
+  width: 100%;
+  background-color: RGB(248, 248, 248);
+  border: none;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  padding-left: 48px;
+  font-size: 1.2em;
+  font-weight: 300;
+}
+@media (max-width: 768px) {
+  /* line 232, ../sass/custom-chatbox.sass */
+  #subscribe .subscribe-form .subscribe-form-input {
+    margin-bottom: 1em;
+  }
+}
+/* line 247, ../sass/custom-chatbox.sass */
+#subscribe .subscribe-form .subscribe-form-button {
+  height: 50px;
+  display: block;
+  width: 100%;
+  font-weight: 600;
+  font-size: 1.2em;
+  background-color: RGB(245, 210, 0);
+}
+
+/* line 254, ../sass/custom-chatbox.sass */
+#footer {
+  background-color: RGB(237, 240, 241);
+}
+@media (max-width: 768px) {
+  /* line 256, ../sass/custom-chatbox.sass */
+  #footer .primary-footer {
+    padding: 32px 0;
+  }
+}
+@media (min-width: 769px) {
+  /* line 256, ../sass/custom-chatbox.sass */
+  #footer .primary-footer {
+    padding: 64px 0 100px;
+  }
+}
+/* line 261, ../sass/custom-chatbox.sass */
+#footer .primary-footer .primary-footer-logo {
+  margin-bottom: 32px;
+}
+/* line 264, ../sass/custom-chatbox.sass */
+#footer .primary-footer .primary-footer-menu .primary-footer-menu-title {
+  color: RGB(51, 51, 51);
+  font-size: 1.2em;
+}
+/* line 267, ../sass/custom-chatbox.sass */
+#footer .primary-footer .primary-footer-menu .primary-footer-menu-items {
+  list-style: none;
+  padding-left: 0;
+}
+/* line 270, ../sass/custom-chatbox.sass */
+#footer .primary-footer .primary-footer-menu .primary-footer-menu-items li {
+  font-weight: 300;
+  line-height: 1.6em;
+}
+/* line 273, ../sass/custom-chatbox.sass */
+#footer .primary-footer .primary-footer-menu .primary-footer-menu-items li a {
+  color: RGB(133, 140, 140);
+}
+/* line 275, ../sass/custom-chatbox.sass */
+#footer .secondary-footer {
+  color: RGB(151, 157, 158);
+}
+@media (max-width: 768px) {
+  /* line 275, ../sass/custom-chatbox.sass */
+  #footer .secondary-footer {
+    font-weight: 300;
+  }
+}
+@media (min-width: 769px) {
+  /* line 275, ../sass/custom-chatbox.sass */
+  #footer .secondary-footer {
+    font-weight: 200;
+  }
+}
+/* line 281, ../sass/custom-chatbox.sass */
+#footer .secondary-footer a {
+  color: RGB(72, 159, 250);
+}
+/* line 283, ../sass/custom-chatbox.sass */
+#footer .secondary-footer .secondary-footer-content {
+  padding: 28px 0;
+}
+@media (max-width: 768px) {
+  /* line 285, ../sass/custom-chatbox.sass */
+  #footer .secondary-footer .secondary-footer-content .secondary-footer-content-links {
+    padding-top: 8px;
+  }
+}
+/* line 288, ../sass/custom-chatbox.sass */
+#footer .secondary-footer .secondary-footer-content .secondary-footer-content-links a {
+  color: RGB(151, 157, 158);
+}
+/* line 290, ../sass/custom-chatbox.sass */
+<!-- #footer .secondary-footer .secondary-footer-border {
+  border-top: 1px solid #D2D3D3;
+    width: 100%;
+} -->
+
+/* line 293, ../sass/custom-chatbox.sass */
+#title {
+  margin: 100px 0;
+}
+/* line 295, ../sass/custom-chatbox.sass */
+#title .title-text {
+  font-size: 2.4em;
+}
+
+/* line 297, ../sass/custom-chatbox.sass */
+#team {
+  border-bottom: 1px solid RGB(232, 239, 242);
+}
+/* line 300, ../sass/custom-chatbox.sass */
+#team .team-item .team-item-image {
+  position: relative;
+  margin-bottom: 18px;
+}
+/* line 303, ../sass/custom-chatbox.sass */
+#team .team-item .team-item-image .team-item-image-placeholder {
+  padding-top: 40%;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: none;
+}
+/* line 311, ../sass/custom-chatbox.sass */
+#team .team-item .team-item-image:hover .team-item-image-placeholder {
+  display: block;
+}
+/* line 313, ../sass/custom-chatbox.sass */
+#team .team-item .team-item-name {
+  color: RGB(43, 58, 79);
+  font-size: 1.2em;
+  font-weight: 600;
+  padding-bottom: 12px;
+}
+/* line 318, ../sass/custom-chatbox.sass */
+#team .team-item .team-item-position {
+  color: RGB(128, 137, 143);
+  font-weight: 300;
+  padding-bottom: 100px;
+}
+
+/* line 322, ../sass/custom-chatbox.sass */
+#tweet {
+  padding: 80px 0;
+}
+/* line 324, ../sass/custom-chatbox.sass */
+#tweet .tweet-title {
+  font-size: 2.2em;
+  color: RGB(43, 58, 79);
+  padding-bottom: 24px;
+}
+/* line 328, ../sass/custom-chatbox.sass */
+#tweet .tweet-title .circle {
+  margin: 0.1em 0;
+  display: inline-block;
+  width: 0.6em;
+  height: 0.6em;
+  background-color: RGB(0, 187, 43);
+  -moz-border-radius: 0.6em;
+  -webkit-border-radius: 0.6em;
+  border-radius: 0.6em;
+}
+/* line 335, ../sass/custom-chatbox.sass */
+#tweet .tweet-description {
+  font-size: 1.2em;
+  color: RGB(135, 143, 148);
+  font-weight: 200;
+}
+/* line 339, ../sass/custom-chatbox.sass */
+#tweet .tweet-arrow {
+  position: absolute;
+  right: 0;
+}
+
+#card {
+    clear: both;
+    width: auto;
+    background-color: #F9F9F9;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -webkit-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.27);
+-moz-box-shadow: 0px 1px %px 0px rgba(0,0,0,0.27);
+box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.27);
+}
+
+#head-sign {
+    padding-top: 
+}
+
+#terms {
+    clear: both;
+    position: relative;
+}
+#terms a {
+    color: RGB(26, 133, 254);
+}
